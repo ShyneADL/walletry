@@ -9,7 +9,7 @@ const Info = () => {
         <div className='p-10 bg-white shadow flex flex-col items-start gap-[15px] relative'>
           <img src={item1} className='absolute top-[-20px] left-[50%] translate-x-[-50%]'/>
           <img src={corner} className='absolute right-[0px] top-[0px]' />
-          <h3 className='font-sora font-700 text-[32px] leading-'>Globally-accesible, transformational API</h3>
+          <h3 className='font-sora font-700 text-[32px] leading-[38px] tracking-[-0.64px]'>Globally-accesible, transformational API</h3>
         </div>
       </div>
     </section>
