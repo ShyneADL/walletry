@@ -217,3 +217,33 @@
 	grid-column: 3 / 4;
 	
  }
+
+ .input_box {
+    background: rgba(47, 50, 65, 0.5);
+    border: 1px solid #34384C;
+ }
+
+ .email_box {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    color: white;
+    background-color: transparent;
+    width: 229px;
+    outline: none;
+ }
+
+.email_box::placeholder {
+    color:#5D6588;
+}
+
+
+.faded_img {
+    position: absolute;
+    width: 450.68px;
+    height: 450.68px;
+    top: 841.89px;
+    left: -2.51px;
+    /* transform: rotate(4deg); */
+}

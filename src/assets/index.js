@@ -14,6 +14,12 @@ import icon6 from './icon6.svg'
 import atom from './atom.png'
 import device from './device.png'
 import faded from './faded.png'
+import discord from './discord.svg'
+import fb from './fb.svg'
+import ig from './ig.svg'
+import telegram from './telegram.svg'
+import twitter from './twitter.svg'
+
 
 
 export { 
@@ -33,4 +39,9 @@ export {
     atom,
     device,
     faded,
+    discord,
+    fb,
+    ig,
+    telegram,
+    twitter,
  }
