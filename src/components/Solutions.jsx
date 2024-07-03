@@ -3,7 +3,7 @@ import { icon1, icon2, icon3, icon4, icon5, icon6 } from '../assets'
 
 const Solutions = () => {
   return (
-    <section className='bg-white flex flex-col items-center gap-[58px] py-[120px] md:px-[185px] px-[20px] w-full'>
+    <section className='bg-white flex flex-col items-center gap-[58px] md:py-[120px] py-[70px] md:px-[185px] px-[20px] w-full'>
       <div className='flex flex-col items-center gap-[20px]'>
         <h3 className='font-sora font-bold md:text-[32px] text-[22px] md:leading-[40.32px] text-center text-black'>Scaling solutions, amplified</h3>
         <p className='font-inter font-normal md:text-[24px] text-[16px] md:leading-[36px] tracking-[-0.36px] text-center text-darkGrey'>Walletry’s complete suite of blockchain-scaling solutions.</p>

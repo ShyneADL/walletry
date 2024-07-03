@@ -19,7 +19,7 @@ import fb from './fb.svg'
 import ig from './ig.svg'
 import telegram from './telegram.svg'
 import twitter from './twitter.svg'
-
+import menu from './icon-menu.svg'
 
 
 export { 
@@ -44,4 +44,5 @@ export {
     ig,
     telegram,
     twitter,
+    menu
  }

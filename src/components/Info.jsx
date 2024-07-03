@@ -3,8 +3,8 @@ import { item1, item2, item3, arrow, corner } from '../assets'
 
 const Info = () => {
   return (
-    <section className='md:py-[104px] py-[82px] bg-white flex flex-col items-center gap-[160px]  w-full'>
-      <h3 className='font-sora font-bold md:md:text-[32px] text-[22px] text-[22px] leading-[40.32px] text-center text-black md:w-[674px] w-[390px]'>Walletry makes blockchain development accessible for everyone.</h3>
+    <section className='md:py-[104px] py-[70px] bg-white flex flex-col items-center gap-[160px]  w-full'>
+      <h3 className='font-sora font-bold md:text-[32px] text-[22px] text-[22px] leading-[40.32px] text-center text-black md:w-[674px] w-[390px]'>Walletry makes blockchain development accessible for everyone.</h3>
       <div className='flex lg:flex-row flex-col items-center lg:gap-[10px] gap-[120px]'>
         <div className='p-[30px] info_box shadow flex flex-col items-start gap-[15px] relative md:w-[420px]  w-[300px]'>
           <img src={item1} className='absolute md:top-[-180px] top-[-120px] left-[50%] translate-x-[-50%] md:w-[340px] w-[260px]'/>

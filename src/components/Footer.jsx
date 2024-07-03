@@ -2,8 +2,8 @@ import React from 'react'
 import { discord, telegram, twitter, ig, fb } from '../assets'
 const footer = () => {
   return (
-    <footer className='lg:px-20 px-16 pb-[32px] pt-[113px] flex flex-col items-start gap-[32px] bg-darkBlue w-full relative'>
-      <div className='flex items-start gap-[130px] w-full'>
+    <footer className='lg:px-20 px-[20px] pb-[32px] md:pt-[113px] pt-[70px] flex flex-col items-start gap-[32px] bg-darkBlue w-full relative'>
+      <div className='flex md:flex-row flex-col items-start md:gap-[130px] gap-[58px] w-full'>
         {/* 1st Column */}
         <div className='flex flex-col items-start gap-[25px]'>
           <h4 className='font-sora font-bold text-[18px] leading-[22.68px] text-white'>Walletry.</h4>
@@ -54,15 +54,15 @@ const footer = () => {
       </div>
       <div className='mt-[67px] bg-[#34384C] h-[1px] w-full'/>
       <div className='flex items-center justify-between w-full'>
-        <h5 className='font-inter font-normal text-16px] leading-[24px] text-[#5D6588]'>Walletry ©. All rights reserved.</h5>
-        <div className='flex items-center gap-5'>
-          <p className='font-inter font-normal text-[16px] leading-[24px] text-[#5D6588] cursor-pointer'>Terms of Service</p>
+        <h5 className='font-inter font-normal md:text-[16px] text-[14px] md:leading-[24px] text-[#5D6588]'>Walletry ©. All rights reserved.</h5>
+        <div className='flex items-center md:gap-5 gap-3'>
+          <p className='font-inter font-normal md:text-[16px] text-[14px] leading-[24px] text-[#5D6588] cursor-pointer w-[70px]'>Terms of Service</p>
           <div className='h-6 w-[1px] bg-[#5D6588]'/>
-          <p className='font-inter font-normal text-[16px] leading-[24px] text-[#5D6588] cursor-pointer'>Privacy Policy</p>
+          <p className='font-inter font-normal md:text-[16px] text-[14px] leading-[24px] text-[#5D6588] cursor-pointer w-[70px]'>Privacy Policy</p>
         </div>
       </div>
 
-      <button className='py-[9px] p-3 rounded-[6px] bg-[#091A53] font-black text-[16px] leading-[18px] text-center text-white absolute bottom-[34.68px] right-[26.25px]'>^</button>
+      <button className='md:flex hidden py-[9px] p-3 rounded-[6px] bg-[#091A53] font-black text-[16px] leading-[18px] text-center text-white absolute md:bottom-[34.68px] right-[26.25px]'>^</button>
     </footer>
   )
 }

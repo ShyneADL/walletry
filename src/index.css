@@ -46,7 +46,6 @@
         background-position: center;
         background-size: cover;
         width: 100%;
-        height: 1488px;
         
 }
 
@@ -65,21 +64,21 @@
    gap: 40px;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 490px) {
     .grid_box {   
        grid-template-rows: repeat(3,1fr);
        grid-template-columns: repeat(2,1fr);
 
-       gap: 30px;
-       
+       gap: 30px; 
     }
 
-    #item-0 { grid-row: 1 / 2; grid-column: 1 / 2; } /* Row 1, Column 1 */
-    #item-1 { grid-row: 1 / 2; grid-column: 2 / 3; } /* Row 1, Column 2 */
-    #item-2 { grid-row: 2 / 3; grid-column: 1 / 2; } /* Row 2, Column 1 */
-    #item-3 { grid-row: 2 / 3; grid-column: 2 / 3; } /* Row 2, Column 2 */
-    #item-4 { grid-row: 3 / 4; grid-column: 1 / 2; } /* Row 3, Column 1 */
-    #item-5 { grid-row: 3 / 4; grid-column: 2 / 3; } /* Row 3, C
+    .item-0 { grid-row: 1 / 2 !important; grid-column: 1 / 2 !important; } 
+    .item-1 { grid-row: 1 / 2 !important; grid-column: 2 / 3 !important; } 
+    .item-2 { grid-row: 2 / 3 !important; grid-column: 1 / 2 !important; } 
+    .item-3 { grid-row: 2 / 3 !important; grid-column: 2 / 3 !important; } 
+    .item-4 { grid-row: 3 / 4 !important; grid-column: 1 / 2 !important; } 
+    .item-5 { grid-row: 3 / 4 !important; grid-column: 2 / 3 !important; }
+
 }
 
 .item-0 {
@@ -138,7 +137,41 @@
     position: absolute;
     width: 450.68px;
     height: 450.68px;
-    top: 841.89px;
     left: -2.51px;
-    /* transform: rotate(4deg); */
 }
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark gray with some transparency */
+    z-index: 10;
+  }
+  
+  .slide-right {
+      animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+
+@keyframes slide-right {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-left {
+      animation: slide-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+   @keyframes slide-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
