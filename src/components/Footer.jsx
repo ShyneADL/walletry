@@ -2,7 +2,7 @@ import React from 'react'
 import { discord, telegram, twitter, ig, fb } from '../assets'
 const footer = () => {
   return (
-    <footer className='px-[80px] pb-[32px] pt-[113px] flex flex-col items-start gap-[32px] bg-darkBlue w-full relative'>
+    <footer className='lg:px-20 px-16 pb-[32px] pt-[113px] flex flex-col items-start gap-[32px] bg-darkBlue w-full relative'>
       <div className='flex items-start gap-[130px] w-full'>
         {/* 1st Column */}
         <div className='flex flex-col items-start gap-[25px]'>
