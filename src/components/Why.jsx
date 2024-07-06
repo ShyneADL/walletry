@@ -3,7 +3,7 @@ import { atom } from '../assets'
 
 const Why = () => {
   return (
-    <section className='md:px-[72px] px-[20px] md:py-[110px] py-[70px] flex md:flex-row flex-col-reverse items-center md:gap-[133.86px] gap-[20px] bg-darkBlue'>
+    <section className='lg:px-[72px] px-[20px] lg:py-[110px] py-[70px] flex lg:flex-row flex-col-reverse items-center lg:gap-[133.86px] gap-[20px] bg-darkBlue'>
       <img src={atom} className='lg:w-[450px] lg:h-[431px] md:w-[380px] w-[240px]' />
       <div className='flex flex-col items-start md:gap-[22px] gap-[18px]'>
         <h3 className='font-sora font-extrabold lg:text-[40px] md:text-[32px] text-[22px] lg:leading-[52px] md:leading-[44px] tracking-[-1.2px] text-white md:w-[578px]'>Top blockchains build on Walletry.</h3>

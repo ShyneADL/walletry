@@ -64,7 +64,7 @@
    gap: 40px;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 990px) {
     .grid_box {   
        grid-template-rows: repeat(3,1fr);
        grid-template-columns: repeat(2,1fr);
