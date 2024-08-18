@@ -19,7 +19,7 @@ const Info = () => {
         opacity: 1,
         duration: 1,
         delay: 0.4,
-        ease: 'bounce.inOut'
+        ease: 'back.inOut'
       }
     )
     gsap.fromTo(
@@ -34,7 +34,7 @@ const Info = () => {
         opacity: 1,
         stagger: 0.5,
         duration: 1,
-        ease: 'bounce.inOut'
+        ease: 'expo'
       }
     )
   },[])
