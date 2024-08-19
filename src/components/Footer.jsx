@@ -2,13 +2,13 @@ import React from 'react'
 import { discord, telegram, twitter, ig, fb } from '../assets'
 const footer = () => {
   return (
-    <footer className='lg:px-20 px-[20px] pb-[32px] lg:pt-[113px] pt-[70px] flex flex-col items-start gap-[32px] bg-darkBlue w-full relative'>
-      <div className='flex lg:flex-row flex-col items-start lg:gap-[130px] gap-[58px] w-full'>
+    <footer className='xl:px-20 px-[20px] pb-[32px] lg:pt-[113px] pt-[70px] flex flex-col items-start gap-[32px] bg-darkBlue w-full relative'>
+      <div className='flex lg:flex-row flex-col items-start xl:gap-[130px] lg:gap-[70px] gap-[58px] w-full'>
         {/* 1st Column */}
         <div className='flex flex-col items-start gap-[25px]'>
           <h4 className='font-sora font-bold text-[18px] leading-[22.68px] text-white'>Walletry.</h4>
           <p className='font-inter font-normal text-[18px] leading-[27px] text-lightGrey w-[241px]'>Simplest Web3 Wallet Infrastructure for everyone</p>
-          <div className='flex items-center gap-[32px] mt-[33px]'>
+          <div className='flex items-center xl:gap-[32px] lg:gap-[16px] gap-[32px] mt-[33px]'>
             <div className='p-2 rounded-full bg-[#181D27] cursor-pointer'>
               <img src={discord} className='w-[32px]' />
             </div>
@@ -47,7 +47,7 @@ const footer = () => {
           <h4 className='font-sora font-bold text-[18px] leading-[22.68px] text-white'>Submit for updates.</h4>
           <p className='font-inter font-normal text-[18px] leading-[27px] text-lightGrey w-[241px]'>Stay informed on all things Web3 with updates and news from Walletry.</p>
           <div className='flex items-center gap-[10px] rounded-[100px] input_box py-2 pr-2 pl-6'>
-            <input type='email' placeholder='Enter your email address' className='email_box'/>
+            <input type='email' placeholder='Enter your email address' className='email_box xl:w-[229px] lg:w-[200px]'/>
             <button className='py-3 px-6 rounded-[100px] bg-primary text-white font-inter font-semibold text-[14px] leading-[22.4px]'>Send</button>
           </div>
         </div>
@@ -62,7 +62,7 @@ const footer = () => {
         </div>
       </div>
 
-      <button className='lg:flex hidden py-[9px] p-3 rounded-[6px] bg-[#091A53] font-black text-[16px] leading-[18px] text-center text-white absolute md:bottom-[34.68px] right-[26.25px]'>^</button>
+      <button className='lg:flex hidden py-[9px] p-3 rounded-[6px] bg-[#091A53] font-black text-[16px] leading-[18px] text-center text-white absolute xl:bottom-[34.68px] lg:bottom-[100px] right-[26.25px]'>^</button>
     </footer>
   )
 }

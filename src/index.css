@@ -63,7 +63,7 @@ body {
 .grid_box {
 	display: grid; 
 	place-items: center;
-	align-items: center;
+	align-items: start;
 
    grid-template-rows: repeat(2,1fr);
    grid-template-columns: repeat(3,1fr);
@@ -86,6 +86,11 @@ body {
     .item-4 { grid-row: 3 / 4 !important; grid-column: 1 / 2 !important; } 
     .item-5 { grid-row: 3 / 4 !important; grid-column: 2 / 3 !important; }
 
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .grid_box {   
+       gap: 25px; 
+    }
 }
 
 .item-0 {

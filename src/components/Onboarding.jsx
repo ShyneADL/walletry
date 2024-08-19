@@ -59,9 +59,9 @@ const Onboarding = () => {
     )
     },[])
   return (
-    <section className='py-[70px] md:px-[80px] px-[20px] bg-darkBlue flex flex-col items-center gap-[86px] w-full'>
+    <section className='py-[70px] xl:px-[80px] lg:px-[20px] md:px-[80px] px-[20px] bg-darkBlue flex flex-col items-center gap-[86px] w-full'>
       <h3 className='font-sora font-bold md:text-[32px] text-[22px] leading-[40.32px] text-center text-white lg:w-[883px] md:w-[600px] w-[390px]'>Walletry makes Life easier for onboarding experience  for everyone.</h3>
-      <div className='text_wrapper flex lg:flex-row flex-col-reverse items-center lg:gap-[108px] gap-[72px] lg:mb-[110px] mb-[50px]'>
+      <div className='text_wrapper flex lg:flex-row flex-col-reverse items-center xl:gap-[108px] gap-[72px] lg:mb-[110px] mb-[50px]'>
         <ul className='flex lg:flex-col items-center md:gap-[26px] md:flex-nowrap flex-wrap gap-[12px] justify-center'>
           <li className='side_text font-sora font-semibold text-[24px] leading-[38px] tracking-[-0.64px] text-lightGrey'>Wallet</li>
           <li className='side_text font-sora font-semibold text-[24px] leading-[38px] tracking-[-0.64px] text-lightGrey'>Gaming</li>
@@ -69,9 +69,9 @@ const Onboarding = () => {
           <li className='side_text font-sora font-semibold text-[24px] leading-[38px] tracking-[-0.64px] text-lightGrey'>Social</li>
           <li className='side_text font-sora font-semibold text-[24px] leading-[38px] tracking-[-0.64px] text-lightGrey'>MintCoin</li>
         </ul>
-        <div ref={onboardingRef} id='white_box' className='flex flex-col items-start gap-[35px] bg-white rounded-[24px] lg:py-[85px] py-[52px] lg:pl-[73px] pl-[30px] lg:pr-[155px] pr-[30px]'>
+        <div ref={onboardingRef} id='white_box' className='flex flex-col items-start gap-[35px] bg-white rounded-[24px] xl:py-[85px] py-[52px] xl:pl-[73px] pl-[30px] xl:pr-[155px] pr-[30px]'>
           <h4 id='main_text' className='font-sora font-bold md:text-[36px] text-[24px] md:leading-[52px] tracking-[-0.5px] text-black lg:w-[739px] md:w-[578px] w-[323px]'>Convenience and conversion with the right amount of security at every stage.</h4>
-          <p className='font-inter font-normal md:text-[22px] text-[16px] md:leading-[26.4px] text-darkGrey lg:w-[711.65px] md:w-[546px] w-[299px] '>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatu</p>
+          <p className='font-inter font-normal md:text-[22px] text-[16px] md:leading-[26.4px] text-darkGrey lg:w-[711.65px] md:w-[546px] w-[299px] '>From setting up your wallet to navigating the blockchain landscape, we've got you covered.</p>
           <button id='go_btn' className='gradient_btn py-[8.5px] px-[39.5px] text-[16px] leading-[28px]'>Let's Go</button>
         </div>
       </div>
